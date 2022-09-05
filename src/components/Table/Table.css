@@ -1,0 +1,61 @@
+.table {
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 710px;
+    color: #000000;
+}
+
+.table tr {
+    display: flex;
+    justify-content: space-between;
+}
+
+.table td {
+    padding: 0.5rem;
+}
+
+.table tr:nth-of-type(odd) {
+    background-color: #f3f2f8;
+}
+
+@media (max-width: 990px) {
+    .table {
+        height: 400px;
+    }
+}
+
+.darkDrop {
+    background: linear-gradient(0deg, #000, #6b6b6b);
+    box-shadow: 0 0 0 2px #353535, 0 0 0 2px #3e3e3e; 
+    border-radius: 13px;
+    border: 2px solid #aaa;
+    outline: none;
+    cursor: pointer;
+    text-align-last: center;
+    font-size: 15px;
+    font-weight: 800;
+    height: 50px;
+    margin-top: 20px;
+    margin-right: 35px;
+}
+.darkDrop:hover{
+    background: linear-gradient(0deg, #000, #413f3f);
+}
+
+.lightDrop {
+    background: linear-gradient(0deg, rgb(255, 255, 255), #e4e4e4);
+    border-radius: 13px;
+    border: 2px solid rgb(54, 53, 53);
+    outline: none;
+    cursor: pointer;
+    text-align-last: center;
+    font-size: 15px;
+    font-weight: 800;
+    height: 40px;
+    margin-top: 20px;
+    margin-right: 35px;
+}
+
+.lightDrop:hover{
+    background: linear-gradient(0deg, rgb(255, 255, 255), #fff);
+}
