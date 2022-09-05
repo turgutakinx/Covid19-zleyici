@@ -1,4 +1,4 @@
-# Covid19 tracker app
+# Covid19 İzleme Uygulaması
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
